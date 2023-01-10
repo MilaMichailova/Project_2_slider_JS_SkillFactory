@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+button {
+  cursor: pointer;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+.completed-projects {
+  background-color: #131313;
+}
+
+.completed-projects {
+  width: 1173px;
+  padding: 107px 134px 127px 134px;
+  display: flex;
+  flex-direction: row;
+}
+
+.completed-projects-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 442px;
+  padding: 58px 50px 0 0;
+}
+
+.contrast-title {
+  display: flex;
+  width: 253px;
+  padding-bottom: 34px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  color: #e3b873;
+}
+
+.completed-projects-subtitle {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  color: #fff;
+  padding-bottom: 42px;
+}
+
+.completed-projects-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 403px;
+  padding-bottom: 47px;
+}
+
+.completed-projects-item {
+  display: flex;
+  flex-direction: column;
+  width: 201px;
+}
+
+.comleted-projects-item-title {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #e3b873;
+  padding-bottom: 9px;
+}
+
+.comleted-projects-item-subtitle {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #fff;
+  width: 100px;
+  padding-bottom: 34px;
+}
+
+.navigation-block {
+  width: 122px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.naw-buttons-arrows {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding-right: 18px;
+}
+
+.naw-buttons-pointers {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding-right: 18px;
+}
+
+.pointer-navigation {
+  width: 9px;
+  height: 9px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding-right: 18px;
+}
+
+.completed-projects-gallery {
+  display: flex;
+  flex-direction: column;
+  width: 679px;
+}
+
+.completed-projects-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.completed-projects-menu-list {
+  list-style: none;
+}
+
+.completed-projects-menu-item {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+  padding-right: 56px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.completed-projects-active-item {
+  text-decoration: underline;
+  text-underline-offset: 11px;
+  color: #e3b873;
+}
+
+.img-wrapper {
+  padding-top: 45px;
+}/*# sourceMappingURL=style.css.map */
